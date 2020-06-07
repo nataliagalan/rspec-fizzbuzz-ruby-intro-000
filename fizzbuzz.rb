@@ -4,6 +4,7 @@ def fizzbuzz(number)
   return "FizzBuzz" if is_divisible_by_fifteen?(number)
   return "Buzz" if is_divisible_by_five?(number)
   return "Fizz" if is_divisible_by_three?(number)
+  return nil if is_not_divisible_by_three_or_5?(number)
   number
 end
 
