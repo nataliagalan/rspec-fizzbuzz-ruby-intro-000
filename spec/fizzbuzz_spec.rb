@@ -24,5 +24,5 @@ describe "fizzbuzz" do
 end
 
 def fizzbuzz
- 
+
 end
