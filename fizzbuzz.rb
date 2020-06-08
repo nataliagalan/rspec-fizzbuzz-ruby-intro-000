@@ -8,15 +8,15 @@ def fizzbuzz(number)
   number
 end
 
-def is_divisible_by_three?(number)
+def fizz_3?(number)
   is_divisible_by(number, 3)
 end
 
-def is_divisible_by_five?(number)
+def fizz_5?(number)
   is_divisible_by(number, 5)
 end
 
-def is_divisible_by_fifteen?(number)
+def fizz_15?(number)
   is_divisible_by(number, 15)
 end
 
