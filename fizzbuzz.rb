@@ -4,7 +4,6 @@ def fizzbuzz(number)
   return "Fizz" if fizz_3(number)
   return "Buzz" if fizz_5(number)
   return "FizzBuzz" if fizz_15(number)
-
   number
 end
 
