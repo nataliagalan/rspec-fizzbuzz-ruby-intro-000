@@ -24,10 +24,10 @@ def is_divisible_by(number, divisor)
   number % divisor == 0
 end
 
-def is_not_divisible(number, divisor)
-  number % divisor != 0
+def is_not_divisible?(number)
+  is_not_divisible(number, 3 || 5)
 end
 
-def is_not_divisible?(number)
-  is_not_divisible_by(number, 3 || 5)
+def is_not_divisible(number, divisor)
+  number % divisor != 0
 end
