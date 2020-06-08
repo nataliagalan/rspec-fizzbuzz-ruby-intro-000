@@ -24,8 +24,6 @@ def is_divisible_by(number, divisor)
   number % divisor == 0
 end
 
-return nil if is_not_divisible?(number)
-
 def is_not_divisible(number, divisor)
   number % divisor != 0
 end
