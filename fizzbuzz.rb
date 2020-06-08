@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
-  return "FizzBuzz" if is_divisible_by_fifteen?(number)
+  return "FizzBuzz" if fizz_15(number)
   return "Buzz" if fizz_5(number)
   return "Fizz" if fizz_3(number)
   number
