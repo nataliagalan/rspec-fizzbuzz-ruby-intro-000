@@ -23,3 +23,7 @@ end
 def is_divisible_by(number, divisor)
   number % divisor == 0
 end
+
+def is_not_divisible(number, divisor)
+  number % divisor != 0
+end
