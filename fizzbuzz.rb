@@ -11,4 +11,3 @@ end
 def fizz_3?(number)
   fizz_3(number, 3)
 end
-
