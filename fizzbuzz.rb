@@ -27,3 +27,7 @@ end
 def is_not_divisible_by(number, divisor)
   number % divisor != 0
 end
+
+def is_not_divisible_by?(number)
+  is_not_divisible_by(number, 3 || 5)
+end
