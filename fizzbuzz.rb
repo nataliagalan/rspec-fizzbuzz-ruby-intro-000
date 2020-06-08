@@ -3,7 +3,7 @@
 def fizzbuzz(number)
   return "FizzBuzz" if fizzbuzz(15)
   return "Buzz" if buzz(number)
-  return "Fizz" if fizzbuzz(3)
+  return "Fizz" if fizzbuzz(number)
   return nil if is_not_divisible_by_three_or_five?(number)
   number
 end
